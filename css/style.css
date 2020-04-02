@@ -1,0 +1,147 @@
+body { background:url(../images/home_bg.jpg) center top no-repeat #e7e7e7; font-family: \5FAE\8F6F\96C5\9ED1;
+font-size: 14px; padding: 0; text-align: left; width:100%; height:100%; overflow:hidden; background-size:cover; }
+body, div, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td,iframe { margin: 0; padding: 0;}
+a { color: #333333; text-decoration: none;}
+a:hover { color:#007cc2; text-decoration: none;}
+fieldset, img { border: 0 none;}
+ol li, ul li { list-style: none outside none;}
+.clear{ clear:both; width:0px; height:0px; }
+
+.btn_zan{ margin:0px auto; width:65px; height:95px; margin-bottom:30px;}
+.btn_zan p{ line-height: 24px; text-align: center; font-weight: bold;}
+.zan_icon{ width:65px; height:65px; border:solid 1px #838383; display:block; background: url(../images/zan_a.png) center center no-repeat; background-size:100%;
+border-radius:60px; }
+.zan_icon:hover{ background: url(../images/zan_h.png) center center no-repeat; border:none; background-size:100%; border-radius:60px; }
+.zan_icon.zan{ background: url(../images/zan_h.png) center center no-repeat; border:none; background-size:100%; border-radius:60px;  }
+
+/*.wycs_btn{ width:120px; height:121px; float:right; position:absolute; right:10px; bottom:0; z-index:100;}*/
+.loading { position:fixed; right:3%; bottom:3%; margin: -60px 0 0 -60px; width: 86px; height: 86px; border-radius: 100%; border: 5px solid #5aa4ce; background:url(../images/wycs_loding.png) center no-repeat;}
+.loading:after { content: ''; background: trasparent; width: 140%; height: 140%; position: absolute; border-radius: 100%; top: -20%; left: -20%; opacity: 0.7; box-shadow: #FFF -4px -5px 3px -3px; animation: rotate 2s infinite linear;}
+.loading a{ display:block; width:100%; height:100%; z-index:1000; position:absolute; top:0px; left:0px; }
+@keyframes rotate { 0% {
+   transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+
+/*-------首页--------*/
+#right{ width:60%; float:right; position:absolute;left:20%;margin:auto 10% 10px 5%; min-width:700px;}
+#right .title{ width:100%; height:320px; float:left; margin-top:22%;}
+#right .title img{ width:50%; }
+.bqdl{ width:150px; height:45px; float:left; background:url(../images/hstm.png) repeat; position:absolute; display:block; right:0; top:0;}
+.dlu{ width:90%; float:left; font-size:12px; line-height:45px; font-family:"宋体"; padding-left:16px; color:#fff;}
+.dlu a{ color:#fff;}
+.dlu a:hover{ text-decoration:underline;}
+.fgx{ padding:0 5px;}
+.choice{ width:75px; float:left; margin-left:8px;}
+.choice li{ width:18px; height:18px; float:left; margin:13px 7px 14px 0;}
+.guide img{ max-width:1000px; }
+
+/*-------大赛介绍--------*/
+.main{ width:100%;}
+.tansparent{ height:auto; min-height:400px; padding:20px; background-color:#7c22a4; opacity:0.9; filter:alpha(opacity=90);}
+.zt_title{ width:100%; height:63px; display:inline-block; background:url(../images/bstm.png) bottom repeat-x; overflow:hidden;}
+
+.dsai{ width:70%; float:left; font-size:32px; color:#fff; line-height:63px;}
+.btyw{ font-size:20px; font-family:Arial, Helvetica, sans-serif; padding-left:15px; color:#fff; opacity:0.6; filter:alpha(opacity=60);}
+.dszc{ width:115px; height:48px; float:right;background:url(../images/dszc.png) no-repeat; line-height:46px; font-size:24px; font-weight:bold; padding-left:55px; margin-top:6px;}
+.dszc a{ color:#fff;}
+
+.zhuti{ }/*float:left;1060*/
+.jshao{ font-size:16px; line-height:32px; color:#fff; background:url(../images/dsjs_icon.png) 0 10px no-repeat; padding:0 20px 0 28px; margin-top:25px;}
+
+/*-------组织机构--------*/
+.green{ background-color:#a10564;}
+.zuzhi{ width:100%; float:left; margin-top:28px; font-size:16px; line-height:32px; color:#fff;}
+.jg_qian{ width:85px; float:left; line-height:32px; color:#fff; padding-left:7px; background:url(../images/icon_zzjg.png) no-repeat;}
+.jg_guwen{ width:110px; float:left; line-height:32px; margin-right:6px; color:#fff; padding-left:7px; background:url(../images/icon_guwen.png) center right no-repeat;}
+.zutext{ width:86%; float:left;}
+
+/*-------参赛对象--------*/
+.orange{ background-color:#e70076;}
+.xzxg{ text-align:center; font-size:24px; color:#fff; margin:40px 0 20px 0; }
+.zljk{ width:88%; height:268px; margin:0 auto; clear:both;}
+.tu_zl{ width:29%; height:268px; float:left; margin-right:6%; background:url(../images/btm_2.png) repeat;}
+.tu_zl p{ width:100%; float:left; text-align:center; font-size:28px; color:#652a0d;}
+.wb_tb a{ width:100%; height:180px; display:block; background:url(../images/wb_a.png) center 30px no-repeat;}
+.tu_zl:hover .wb_tb a{ width:100%; height:180px; display:block; background:url(../images/wb_h.png) center 30px no-repeat;}
+.fy_tb a{ width:100%; height:180px; display:block; background:url(../images/fy_a.png) center 30px no-repeat;}
+.tu_zl:hover .fy_tb a{ width:100%; height:180px; display:block; background:url(../images/fy_h.png) center 30px no-repeat;}
+.ly_tb a{ width:100%; height:180px; display:block; background:url(../images/lv_a.png) center 30px no-repeat;}
+.tu_zl:hover .ly_tb a{ width:100%; height:180px; display:block; background:url(../images/lv_h.png) center 30px no-repeat;}
+/* .show a{ width:100%; height:180px; display:block; background:url(../images/wb_h.png) center 30px no-repeat;} */
+
+/*-------大赛流程--------*/
+.pink{ background-color:#ca7f02; min-height:450px;}
+.liuc_pic{ width:100%;}
+
+/*-------奖项设置--------*/
+.purple{ background-color:#f16d1a; }
+.pinwe{ width:98%; float:left;}
+.dspw{ width:22%; float:left; margin:2% 4% 0 0;}
+.pw_pic{ width:100%; overflow:hidden;}
+.pw_name{ width:100%; float:left; color:#fff; font-size:18px; text-align:center; padding-top:10px; line-height:24px;} 
+.pw_jb{ width:100%; float:left; color:#fff; font-size:14px; text-align:center; font-family:"宋体"; line-height:24px;} 
+
+.xialak{ width:6px; min-height:620px; float:right; margin-top:25px; overflow:hidden;}
+
+/*-------扶持办法--------*/
+.blue{ background-color:#e83428;}
+.shez_sm{ width:62%; float:right; text-align:right; font-size:13px; color:#000; margin-top:30px;}
+
+/*-------赛事动态--------*/
+.yellow{ background-color:#feb33b;}
+.event{ width:98%; float:left; margin-top:20px;}
+.ssdta{ width:100%; float:left; background:url(../images/xx_zs.png) bottom repeat-x; padding-bottom:20px; overflow:;}
+.ss_tit{ width:100%; float:left; font-size:22px; line-height:46px; color:#432900;}
+.ss_pic{ width:20%; float:left; margin-right:18px;}
+.ss_sm{ width:77%; height:60px; float:right; font-size:14px; line-height:28px; font-family:"宋体"; color:#603b00; overflow:hidden;}
+.ss_time{ width:77%; float:right; text-align:left; font-size:14px; line-height:28px; font-family:"宋体"; color:#ae7b2a;}
+
+/*-------登陆后状态--------*/
+.home{ width:36px; float:left; font-size:12px;}
+.bquan{ width:58px; float:left; font-size:12px;}
+.ysj_sc{ width:58px; float:left; background:url(../images/ysj_sc.png) 0 10px no-repeat; padding-left:36px;} 
+.yhdl{ width:22px; height:21px; float:left; margin-top:10px;}
+
+/*-------详情页--------*/
+#xqy{ width:1000px; margin:0 auto; clear:both;}
+.xq_bt{ width:1000px; height:160px; float:left; border-bottom:1px solid #cecece;}
+.xq_bt .xqbt_cu{ width:1000px; height:70px; float:left; text-align:center; font-size:30px; line-height:70px; margin-top:50px; color:#000;}
+.xq_bt .xq_from{ width:1000px; float:left; font-size:14px; color:#999; text-align:center; font-family:"宋体";}
+.xq_zt{ width:1000px; float:left; font-family:"宋体"; font-size:14px; margin:26px 0; line-height:24px; color:#000;}
+.xz_pic{ width:1000px; float:left;}
+.xq_text{ width:1000px; float:left; text-indent:2em; padding-top:20px; font-size:16px; font-family:'微软雅黑'; line-height:30px; text-align:left; }
+
+.close{ width:40px; height:40px; float:right; position:fixed; right:90px; top:68px;}
+
+
+/*-------2016.8.23作品详情页--------*/
+.zp_xq{ width:1000px; float:left;}
+.zp_xq .zp_bt{ width:1000px; line-height:60px; font-size:30px; color:#2c8baf; margin-top:50px;}
+.zp_xq .flsm{ width:1000px; line-height:30px; font-size:14px; font-family:"宋体"; color:#333; margin-top:10px;}
+.zp_xq .picture_zp{ width:1000px; margin-top:30px;}
+.zp_xq .picture_zp img{ max-width:100%; }
+
+.xia_buttom{ width:1000px; margin-top:40px;}
+.xia_buttom .fuj a{ width:80px; height:30px; float:left; color:#fff; font-family:"宋体"; text-decoration:underline; text-align:center; line-height:30px; font-size:14px; background-color:#bc131a; margin-top:64px;}
+.tp{ width:198px; height:100px; float:left; margin:0 280px;}
+.tp .tops{ width:198px; font-size:18px; color:#888; text-align:center;}
+.ps_color{ color:#bc131a;}
+.tp_btn{ width:198px; height:62px; margin-top:10px;}
+
+.zpy_fx{ width:162px; height:30px; float:right; font-family:"宋体"; margin-top:56px;}
+.zpy_fx .fxz{ width:50px; float:left; color:#7c7c7c; font-size:12px; line-height:30px;}
+.tmfx{ width:108px; float:left;}
+.tmfx li{ width:29px; height:29px; float:left; margin-right:10px;}
+
+/*modal*/
+/* Overlay */
+#simplemodal-overlay {background-color:#e7e7e7; /* cursor:wait; */}
+/* Container */
+#simplemodal-container {height:100%; width:100%; background-color:#e7e7e7; border:3px solid #ccc; text-align:center; overflow:auto; }
+#simplemodal-container a.modalCloseImg {background:url(../images/close_btn.jpg) no-repeat; width:40px; height:40px; display:inline; z-index:3200; position:absolute; top:50px; right:50px; cursor:pointer;}
+#simplemodal-container #basicModalContent {padding:8px;}

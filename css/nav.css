@@ -1,0 +1,39 @@
+.clear{ clear:both; width:0px; height:0px; }
+.logo{ height:auto; text-align:center; margin-top:10px; }
+.logo img{ max-width:80%; }
+
+#left{ width:275px; max-width:275px; height:auto;
+ position:absolute; display:block; z-index:99; background-color:#FFF; height:100%; }
+.nav_bar_bg{ position:absolute; z-index:0; width:8px;height:100%; background:url(../images/cht.jpg) center top repeat-y; top:0px; right:0px; }
+
+
+.nav_wrap{ position:relative; width:360px; max-width:360px; float:left; height:50%; }
+.nav{ position:absolute; left:0px;z-index:1000; }
+.nav ul li{ width:100%; height:auto; float:left; margin:0px;padding:0px;}
+.nav ul li a{ display:block; margin:0px; padding:0px; }
+.nav ul li a:active {outline:none;}
+.nav ul li a img{ margin:0px; padding:0px; float:left; width:100%; }
+
+
+
+.ewm{ width:100%; text-align:center; padding:5px 0px; }
+.ewm img{ max-width:27.3%; }
+.ewm p{ text-align:center; font-size:14px; color:#333;}
+.share { padding:10px 0;}
+.share ul{ width:108px; margin:0 auto;}
+.share ul li{ float:left; padding-right:10px;}
+.share ul li a{ display: block;}
+
+.contact{ }
+.contact ul{ width:136px; margin:0 auto;}
+.contact ul li{ float:left; padding-right:10px; color:#adadad;  margin-top:10px;}
+.contact ul li a{ color:#666;}
+.contact ul li a:hover{ color:#333;}
+
+.footer{ font-size:12px; text-align:center; color:#666; line-height:18px;}
+.footer img{ width:100%;}
+
+
+
+
+

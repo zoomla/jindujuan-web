@@ -1,0 +1,89 @@
+﻿body {  font-size: 9pt;}
+table { font-size: 9pt;}
+td {  font-family: "宋体"; font-size: 9pt; line-height: 12pt}
+input {  font-size: 9pt}
+select {   font-family: "宋体"; font-size: 9pt}
+div {   font-family: "宋体"; font-size: 9pt}
+
+.dht_link {}
+.dht_link A:link { color: #ffffff;text-decoration: none }
+.dht_link A:visited { color: #ffffff;text-decoration: none }
+.dht_link A:active {  text-decoration: none}
+.dht_link A:hover { color: #E86E39; text-decoration: none }
+
+.cp_type_link {  font-size: 9pt;}
+.cp_type_link A:link {  color: #FFFFFF; text-decoration: none}
+.cp_type_link A:visited {  color: #FFFFFF; text-decoration: none}
+.cp_type_link A:active {  text-decoration: none}
+.cp_type_link A:hover {  color: #F77B35; text-decoration: none}
+
+.news_link {}
+.news_link A:link { color: #000000;text-decoration: none }
+.news_link A:visited { color: #000000;text-decoration: none }
+.news_link A:active {  text-decoration: none}
+.news_link A:hover { color: #FF9205; text-decoration: none }
+
+.top_link {}
+.top_link A:link { color: #000000;text-decoration: none }
+.top_link A:visited { color: #000000;text-decoration: none }
+.top_link A:active {  text-decoration: none}
+.top_link A:hover { color: #FF9205; text-decoration: none }
+
+.left_link {}
+.left_link A:link { color: #3C3C3C;text-decoration: none }
+.left_link A:visited { color: #3C3C3C;text-decoration: none }
+.left_link A:active {  text-decoration: none}
+.left_link A:hover { color: #F37022; text-decoration: none }
+
+.foot_link {}
+.foot_link A:link { color: #666666;text-decoration: none }
+.foot_link A:visited { color: #666666;text-decoration: none }
+.foot_link A:active {  text-decoration: none}
+.foot_link A:hover { color: #000000; text-decoration: none }
+
+.task_out {
+	border-top: 1px solid #E6E6E6;
+	border-right: 0px
+	border-bottom: 1px solid #E6E6E6;
+	border-left: 1px solid #A5A6A0;
+}
+
+.task_over {
+	color: #FF9900;
+	border-top: 1px solid #D5D5D5;
+	border-right: 1px solid #A5A6A0;
+	border-bottom: 1px solid #D5D5D5;
+	border-left: 0px none;
+	background-color: #E3E3E3;
+
+}
+
+.newsdownxian {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-bottom-color: #999999;
+}
+
+.txtinfo {
+	line-height: 30px;
+}
+.input01 {
+	border: 1px solid #333333;
+	background-color: #E6EFF8;
+
+
+}
+.dhtline {
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #FFFFFF;
+}
+.kuang {
+	border: 1px solid #333333;
+}

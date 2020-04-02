@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* authur:x hailin */
+
+
+.inav{}
+.inav .navbar-nav .nav-link{color: #fff;}
+.inav .navbar-nav .active >.nav-link{color: #fff;}
+.inav .navbar-brand img{width: 10rem;}
+
+
+
+
+.ihero{height: 38rem;background:url(../images/banner_head.jpg) center no-repeat;background-size: cover;}
+
+.mysite{margin-top: 1rem;}
+
+/*内容主区定义*/
+.icontent{}
+
+
+/*页脚定义*/
+.ifooter{line-height: 4rem; background: #ccc;border-top: 1px solid #666;text-align: center;}
+
+
+
+
+
+/*body{background: #f00;}*/
+
+
+
+
+
+/*以下为旧站迁来的临时css*/
+
+#head{ width:1920px; height:470px; background:url(../images/banner_head.jpg) top center no-repeat;}
+#main{ width:1100px; margin:0 auto; clear:both;}
+
+.Box{ width:1100px; margin-top:30px; padding-left:20px; float:left;}
+
+/*====== footer ======*/	
+#footer{ width:100%; height:66px; float:left; background:url(../images/footer_bg.jpg) top left no-repeat; margin-top:50px;}	
+.f_sm{ width:1100px; margin:0 auto; clear:both; text-align:center; font-size:12px; color:#666; padding-top:34px;}
+.f_text{ width:1100px; margin:0 auto; clear:both; text-align:center; font-size:12px; color:#999; line-height:25px; padding-top:36px;}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+/*移动优化*/
+@media screen and (max-width: 767px) { 
+.inav .navbar-nav .nav-link{color: #000;}
+.inav .navbar-nav .active >.nav-link{color: #000;}
+
+.inav .show{background: #ccc;}
+
+.icontent img{width: 100%;}
+.ihero{height: 12rem;}
+.dlu{font-size: 1	rem !important;}
+.nav_wrap{display: none;}
+
+
+
+}
+
+
